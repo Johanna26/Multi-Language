@@ -20,9 +20,17 @@ namespace Multi_Language
     /// </summary>
     public partial class MainWindow : Window
     {
+        string strLenguage = "";
+        Boolean boolInt = true;
         public MainWindow()
         {
             InitializeComponent();
+            boolInt = false;
+        }
+
+        private void DdlLanguage_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
